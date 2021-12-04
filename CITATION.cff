@@ -1,0 +1,65 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "tesselle" in publications use:'
+type: software
+license: GPL-3.0-or-later
+title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
+version: 0.0.0.9000
+abstract: 'This package is designed to make it easy to install and load key packages
+  from the ''tesselle'' suite in a single step. The ''tesselle'' suite is a collection
+  of packages for research and teaching in archaeology. These packages focus on quantitative
+  analysis methods developed for archaeology. The ''tesselle'' packages are designed
+  to work seamlessly together and to complement general-purpose and other specialized
+  statistical packages. These packages can be used to explore and analyze common data
+  types in archaeology: count data, compositional data and chronological data. Learn
+  more about ''tesselle'' at <https://www.tesselle.org>.'
+authors:
+- family-names: Frerebeau
+  given-names: Nicolas
+  email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+  orcid: https://orcid.org/0000-0001-5759-4944
+  affiliation: Université Bordeaux Montaigne
+preferred-citation:
+  type: manual
+  title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
+  authors:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  version: 0.0.0.9000
+  abstract: 'This package is designed to make it easy to install and load key packages
+    from the ''tesselle'' suite in a single step. The ''tesselle'' suite is a collection
+    of packages for research and teaching in archaeology. These packages focus on
+    quantitative analysis methods developed for archaeology. The ''tesselle'' packages
+    are designed to work seamlessly together and to complement general-purpose and
+    other specialized statistical packages. These packages can be used to explore
+    and analyze common data types in archaeology: count data, compositional data and
+    chronological data. Learn more about ''tesselle'' at <https://www.tesselle.org>.'
+  repository-code: https://github.com/tesselle/tesselle
+  url: https://packages.tesselle.org/tesselle/
+  contact:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  license: GPL-3.0-or-later
+  year: '2021'
+repository-code: https://github.com/tesselle/tesselle
+url: https://packages.tesselle.org/tesselle/
+contact:
+- family-names: Frerebeau
+  given-names: Nicolas
+  email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+  orcid: https://orcid.org/0000-0001-5759-4944
+  affiliation: Université Bordeaux Montaigne
+keywords:
+- archaeology
+- archaeological science
+- r package

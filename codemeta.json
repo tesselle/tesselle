@@ -1,0 +1,152 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "tesselle",
+  "description": "This package is designed to make it easy to install and load\n    key packages from the 'tesselle' suite in a single step. The\n    'tesselle' suite is a collection of packages for research and teaching\n    in archaeology. These packages focus on quantitative analysis methods\n    developed for archaeology. The 'tesselle' packages are designed to\n    work seamlessly together and to complement general-purpose and other\n    specialized statistical packages. These packages can be used to\n    explore and analyze common data types in archaeology: count data,\n    compositional data and chronological data. Learn more about 'tesselle'\n    at <https://www.tesselle.org>.",
+  "name": "tesselle: Easily Install and Load 'tesselle' Packages",
+  "codeRepository": "https://github.com/tesselle/tesselle",
+  "relatedLink": "https://packages.tesselle.org/tesselle/",
+  "issueTracker": "https://github.com/tesselle/tesselle/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Nicolas",
+      "familyName": "Frerebeau",
+      "email": "nicolas.frerebeau@u-bordeaux-montaigne.fr",
+      "@id": "https://orcid.org/0000-0001-5759-4944"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Brice",
+      "familyName": "Lebrun",
+      "email": "brice.lebrun@u-bordeaux-montaigne.fr",
+      "@id": "https://orcid.org/0000-0001-7503-8685"
+    }
+  ],
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Nicolas",
+      "familyName": "Frerebeau",
+      "email": "nicolas.frerebeau@u-bordeaux-montaigne.fr",
+      "@id": "https://orcid.org/0000-0001-5759-4944"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "covr",
+      "name": "covr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=covr"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 3.3"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "arkhe",
+      "name": "arkhe",
+      "version": ">= 0.4.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=arkhe"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "dimensio",
+      "name": "dimensio",
+      "version": ">= 0.2.2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=dimensio"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "folio",
+      "name": "folio",
+      "version": ">= 1.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=folio"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "kairos",
+      "name": "kairos",
+      "version": ">= 1.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=kairos"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "khroma",
+      "name": "khroma",
+      "version": ">= 1.7.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=khroma"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "tabula",
+      "name": "tabula",
+      "version": ">= 1.6.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tabula"
+    }
+  ],
+  "readme": "https://github.com/tesselle/tesselle/blob/main/README.md",
+  "fileSize": "90.367KB",
+  "contIntegration": "https://codecov.io/gh/tesselle/tesselle",
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "keywords": ["archaeology", "archaeological-science", "r-package"]
+}

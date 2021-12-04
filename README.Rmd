@@ -17,8 +17,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/tesselle/tesselle/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/tesselle/actions)
-[![codecov](https://codecov.io/gh/tesselle/tesselle/branch/master/graph/badge.svg)](https://codecov.io/gh/tesselle/tesselle)
-[![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/master)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/master)
+[![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://codecov.io/gh/tesselle/tesselle)
+[![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
 
 [![r-universe](https://tesselle.r-universe.dev/badges/tesselle)](https://tesselle.r-universe.dev)
 
