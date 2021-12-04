@@ -54,6 +54,10 @@ remotes::install_github("tesselle/tesselle")
 * [**kairos**](https://packages.tesselle.org/kairos)
 * [**khroma**](https://packages.tesselle.org/khroma)
 
+```{r library}
+library(tesselle)
+```
+
 ## Contributing
 
 Please note that the **tesselle** project is released with a [Contributor Code of Conduct](https://www.tesselle.org/conduct.html). By contributing to this project, you agree to abide by its terms.

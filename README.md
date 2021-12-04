@@ -53,6 +53,14 @@ remotes::install_github("tesselle/tesselle")
 -   [**kairos**](https://packages.tesselle.org/kairos)
 -   [**khroma**](https://packages.tesselle.org/khroma)
 
+``` r
+library(tesselle)
+#> --- Attaching packages -------------------------------------------- tesselle ---
+#> * tabula    1.6.1
+#> * kairos    1.0.0
+#> * khroma    1.7.0
+```
+
 ## Contributing
 
 Please note that the **tesselle** project is released with a
