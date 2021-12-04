@@ -13,14 +13,23 @@ Description: This package is designed to make it easy to install and load
     work seamlessly together and to complement general-purpose and other
     specialized statistical packages. These packages can be used to
     explore and analyze common data types in archaeology: count data,
-    compositional data and chronological data. Learn more about
-    'tesselle' at <https://www.tesselle.org>.
+    compositional data and chronological data. Learn more about 'tesselle'
+    at <https://www.tesselle.org>.
 License: GPL (>= 3)
 URL: https://github.com/tesselle/tesselle,
     https://packages.tesselle.org/tesselle/
 BugReports: https://github.com/tesselle/tesselle/issues
 Depends: 
     R (>= 3.3)
+Imports: 
+    arkhe (>= 0.4.0),
+    dimensio (>= 0.2.2),
+    folio (>= 1.0.0),
+    kairos (>= 1.0.0),
+    khroma (>= 1.7.0),
+    tabula (>= 1.6.1)
+Suggests:
+    covr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
