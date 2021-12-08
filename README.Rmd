@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/tesselle/tesselle/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/tesselle/actions)
-[![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://codecov.io/gh/tesselle/tesselle)
+[![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tesselle/tesselle)
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
 
 [![r-universe](https://tesselle.r-universe.dev/badges/tesselle)](https://tesselle.r-universe.dev)
@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-The [tesselle](https://www.tesselle.org/) suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The tesselle packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: count data, compositional data and chronological data..
+The [tesselle](https://www.tesselle.org/) suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The tesselle packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: [count data](https://packages.tesselle.org/tabula/), [compositional data](https://packages.tesselle.org/nexus/) and [chronological data](https://packages.tesselle.org/kairos/).
 
 The **tesselle** package is designed to make it easy to install and load key packages from the tesselle suite in a single step. 
 
@@ -48,11 +48,11 @@ remotes::install_github("tesselle/tesselle")
 
 ## Usage
 
-`library(tesselle)` will load the core tesselle packages:
+`library(tesselle)` will load the core packages:
 
-* [**tabula**](https://packages.tesselle.org/tabula)
-* [**kairos**](https://packages.tesselle.org/kairos)
-* [**khroma**](https://packages.tesselle.org/khroma)
+* [**tabula**](https://packages.tesselle.org/tabula/): analysis, seriation and visualization of archaeological count data;
+* [**kairos**](https://packages.tesselle.org/kairos/): analysis of chronological patterns from archaeological count data;
+* [**khroma**](https://packages.tesselle.org/khroma/): colour schemes for scientific data visualization.
 
 ```{r library}
 library(tesselle)

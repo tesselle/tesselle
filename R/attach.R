@@ -10,7 +10,7 @@ tesselle_unloaded <- function() {
 
 tesselle_load <- function(x) {
   loc <- if (x %in% loadedNamespaces()) dirname(getNamespaceInfo(x, "path"))
-  do.call(library, list(x, lib.loc = loc, character.only = TRUE))
+  do.call("library", list(x, lib.loc = loc, character.only = TRUE))
 }
 
 tesselle_attach <- function() {
