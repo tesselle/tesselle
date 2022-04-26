@@ -1,7 +1,7 @@
 Package: tesselle
 Title: Easily Install and Load 'tesselle' Packages
-Version: 0.0.0.9000
-Authors@R: 
+Version: 1.0.0
+Authors@R:
     c(person(given = "Nicolas",
              family = "Frerebeau",
              role = c("aut", "cre"),
@@ -15,16 +15,15 @@ Authors@R:
              comment = c(ORCID = "0000-0001-7503-8685",
                          affiliation = "Université Bordeaux Montaigne")))
 Maintainer: Nicolas Frerebeau <nicolas.frerebeau@u-bordeaux-montaigne.fr>
-Description: This package is designed to make it easy to install and load
-    key packages from the 'tesselle' suite in a single step. The
-    'tesselle' suite is a collection of packages for research and teaching
-    in archaeology. These packages focus on quantitative analysis methods
-    developed for archaeology. The 'tesselle' packages are designed to
-    work seamlessly together and to complement general-purpose and other
-    specialized statistical packages. These packages can be used to
-    explore and analyze common data types in archaeology: count data,
-    compositional data and chronological data. Learn more about 'tesselle'
-    at <https://www.tesselle.org>.
+Description: Easy install and load key packages from the 'tesselle' suite
+    in a single step. The 'tesselle' suite is a collection of packages for
+    research and teaching in archaeology. These packages focus on
+    quantitative analysis methods developed for archaeology. The
+    'tesselle' packages are designed to work seamlessly together and to
+    complement general-purpose and other specialized statistical packages.
+    These packages can be used to explore and analyze common data types in
+    archaeology: count data, compositional data and chronological data.
+    Learn more about 'tesselle' at <https://www.tesselle.org>.
 License: GPL (>= 3)
 URL: https://github.com/tesselle/tesselle,
     https://packages.tesselle.org/tesselle/
@@ -36,7 +35,7 @@ Imports:
     dimensio (>= 0.2.2),
     folio (>= 1.0.0),
     kairos (>= 1.0.0),
-    khroma (>= 1.7.0),
+    khroma (>= 1.8.0),
     tabula (>= 1.6.1)
 Suggests:
     covr

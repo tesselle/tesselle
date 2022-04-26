@@ -9,7 +9,9 @@
 [![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tesselle/tesselle)
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
 
-[![r-universe](https://tesselle.r-universe.dev/badges/tesselle)](https://tesselle.r-universe.dev)
+<a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
+src="https://tesselle.r-universe.dev/badges/tesselle"
+alt="r-universe" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
@@ -62,8 +64,8 @@ remotes::install_github("tesselle/tesselle")
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
 #> * tabula    1.6.1
-#> * kairos    1.0.0
-#> * khroma    1.7.0
+#> * kairos    1.0.1
+#> * khroma    1.8.0
 ```
 
 ## Contributing

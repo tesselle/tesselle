@@ -9,13 +9,13 @@
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-This package is designed to make it easy to install and load key packages from the 'tesselle' suite in a single step. The 'tesselle' suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The 'tesselle' packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: count data, compositional data and chronological data. Learn more about 'tesselle' at <https://www.tesselle.org>.
+Easy install and load key packages from the 'tesselle' suite in a single step. The 'tesselle' suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The 'tesselle' packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: count data, compositional data and chronological data. Learn more about 'tesselle' at <https://www.tesselle.org>.
 }
 \details{
 \tabular{ll}{
 \strong{Package:} \tab tesselle \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 0.0.0.9000 \cr
+\strong{Version:} \tab 1.0.0 \cr
 \strong{License:} \tab GPL-3 \cr
 }
 }
