@@ -15,7 +15,7 @@ Easy install and load key packages from the 'tesselle' suite in a single step. T
 \tabular{ll}{
 \strong{Package:} \tab tesselle \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.0.0 \cr
+\strong{Version:} \tab 1.0.0.9000 \cr
 \strong{License:} \tab GPL-3 \cr
 }
 }
@@ -41,10 +41,10 @@ Brice Lebrun \tab \emph{Université Bordeaux Montaigne, France} \cr
 Nicolas Frerebeau\cr
 \email{nicolas.frerebeau@u-bordeaux-montaigne.fr}
 
-IRAMAT-CRP2A (UMR 5060)\cr
+Archéosciences Bordeaux (UMR 6034)\cr
 Maison de l'Archéologie\cr
 Université Bordeaux Montaigne\cr
-F-33607 Pessac cedex\cr
+33607 Pessac cedex\cr
 France
 }
 \keyword{internal}
