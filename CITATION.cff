@@ -9,14 +9,14 @@ type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
 version: 1.0.0
-abstract: 'This package is designed to make it easy to install and load key packages
-  from the ''tesselle'' suite in a single step. The ''tesselle'' suite is a collection
-  of packages for research and teaching in archaeology. These packages focus on quantitative
-  analysis methods developed for archaeology. The ''tesselle'' packages are designed
-  to work seamlessly together and to complement general-purpose and other specialized
-  statistical packages. These packages can be used to explore and analyze common data
-  types in archaeology: count data, compositional data and chronological data. Learn
-  more about ''tesselle'' at <https://www.tesselle.org>.'
+abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
+  step. The ''tesselle'' suite is a collection of packages for research and teaching
+  in archaeology. These packages focus on quantitative analysis methods developed
+  for archaeology. The ''tesselle'' packages are designed to work seamlessly together
+  and to complement general-purpose and other specialized statistical packages. These
+  packages can be used to explore and analyze common data types in archaeology: count
+  data, compositional data and chronological data. Learn more about ''tesselle'' at
+  <https://www.tesselle.org>.'
 authors:
 - family-names: Frerebeau
   given-names: Nicolas
@@ -33,14 +33,15 @@ preferred-citation:
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
   version: 1.0.0
-  abstract: 'This package is designed to make it easy to install and load key packages
-    from the ''tesselle'' suite in a single step. The ''tesselle'' suite is a collection
-    of packages for research and teaching in archaeology. These packages focus on
-    quantitative analysis methods developed for archaeology. The ''tesselle'' packages
-    are designed to work seamlessly together and to complement general-purpose and
-    other specialized statistical packages. These packages can be used to explore
-    and analyze common data types in archaeology: count data, compositional data and
-    chronological data. Learn more about ''tesselle'' at <https://www.tesselle.org>.'
+  abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
+    step. The ''tesselle'' suite is a collection of packages for research and teaching
+    in archaeology. These packages focus on quantitative analysis methods developed
+    for archaeology. The ''tesselle'' packages are designed to work seamlessly together
+    and to complement general-purpose and other specialized statistical packages.
+    These packages can be used to explore and analyze common data types in archaeology:
+    count data, compositional data and chronological data. Learn more about ''tesselle''
+    at <https://www.tesselle.org>.'
+  repository: https://CRAN.R-project.org/package=tesselle
   repository-code: https://github.com/tesselle/tesselle
   url: https://packages.tesselle.org/tesselle/
   contact:
@@ -55,6 +56,7 @@ preferred-citation:
   - r-package
   license: GPL-3.0-or-later
   year: '2022'
+repository: https://CRAN.R-project.org/package=tesselle
 repository-code: https://github.com/tesselle/tesselle
 url: https://packages.tesselle.org/tesselle/
 contact:
@@ -89,8 +91,8 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
   year: '2022'
+  url: https://CRAN.R-project.org/package=arkhe
   version: '>= 0.4.0'
 - type: software
   title: dimensio
@@ -166,3 +168,10 @@ references:
     email: james.f.hester@gmail.com
   year: '2022'
   url: https://CRAN.R-project.org/package=covr
+identifiers:
+- description: The concept DOI.
+  type: doi
+  value: 10.5281/zenodo.6500491
+- description: The versioned DOI for version 1.0.0.
+  type: doi
+  value: 10.5281/zenodo.6500492

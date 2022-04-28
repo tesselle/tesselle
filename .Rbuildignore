@@ -2,7 +2,7 @@
 ^codemeta\.json$
 ^\_pkgdown\.yml$
 ^cran-comments\.md$
-^CRAN-RELEASE$
+^CRAN-SUBMISSION$
 ^LICENSE\.md$
 ^README\.Rmd$
 ^data-raw$
@@ -15,3 +15,4 @@
 ^\.httr-oauth$
 ^revdep$
 ^CITATION\.cff$
+^CRAN-SUBMISSION$

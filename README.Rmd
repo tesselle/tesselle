@@ -21,8 +21,13 @@ knitr::opts_chunk$set(
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
 
 [![r-universe](https://tesselle.r-universe.dev/badges/tesselle)](https://tesselle.r-universe.dev){.pkgdown-devel}
+[![CRAN Version](http://www.r-pkg.org/badges/version/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
+[![CRAN checks](https://cranchecks.info/badges/worst/tesselle)](https://cran.r-project.org/web/checks/check_results_tesselle.html){.pkgdown-release}
+[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6500491.svg)](https://doi.org/10.5281/zenodo.6500491)
 <!-- badges: end -->
 
 ## Overview
