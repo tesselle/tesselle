@@ -1,4 +1,4 @@
-# tesselle 1.0.0.9000
+# tesselle 1.1.0
 
 * Import **arkhe** >= 0.5.0
 * Import **dimensio** >= 0.3.0

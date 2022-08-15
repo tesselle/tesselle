@@ -15,7 +15,7 @@ Easy install and load key packages from the 'tesselle' suite in a single step. T
 \tabular{ll}{
 \strong{Package:} \tab tesselle \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.0.0.9000 \cr
+\strong{Version:} \tab 1.1.0 \cr
 \strong{License:} \tab GPL-3 \cr
 }
 }

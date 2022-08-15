@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.2.2
+# CITATION file created with {cffr} R package, v0.2.3
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -8,7 +8,7 @@ message: 'To cite package "tesselle" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
-version: 1.0.0
+version: 1.1.0
 abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
   step. The ''tesselle'' suite is a collection of packages for research and teaching
   in archaeology. These packages focus on quantitative analysis methods developed
@@ -32,7 +32,7 @@ preferred-citation:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  version: 1.0.0
+  version: 1.1.0
   abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
     step. The ''tesselle'' suite is a collection of packages for research and teaching
     in archaeology. These packages focus on quantitative analysis methods developed
@@ -91,9 +91,10 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=arkhe
-  version: '>= 0.4.0'
+  version: '>= 0.5.0'
 - type: software
   title: dimensio
   abstract: 'dimensio: Multivariate Data Analysis'
@@ -103,9 +104,10 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=dimensio
-  version: '>= 0.2.2'
+  version: '>= 0.3.0'
 - type: software
   title: folio
   abstract: 'folio: Datasets for Teaching Archaeology and Paleontology'
@@ -115,9 +117,10 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=folio
-  version: '>= 1.0.0'
+  version: '>= 1.2.0'
 - type: software
   title: kairos
   abstract: 'kairos: Analysis of Chronological Patterns from Archaeological Count
@@ -131,7 +134,7 @@ references:
     affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=kairos
-  version: '>= 1.0.0'
+  version: '>= 1.1.0'
 - type: software
   title: khroma
   abstract: 'khroma: Colour Schemes for Scientific Data Visualization'
@@ -144,20 +147,20 @@ references:
     affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=khroma
-  version: '>= 1.8.0'
+  version: '>= 1.9.0'
 - type: software
   title: tabula
-  abstract: 'tabula: Analysis, Seriation and Visualization of Archaeological Count
-    Data'
+  abstract: 'tabula: Analysis and Visualization of Archaeological Count Data'
   notes: Imports
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=tabula
-  version: '>= 1.6.1'
+  version: '>= 1.7.0'
 - type: software
   title: covr
   abstract: 'covr: Test Coverage for Packages'

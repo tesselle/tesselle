@@ -67,8 +67,8 @@ remotes::install_github("tesselle/tesselle")
 
 `library(tesselle)` will load the core packages:
 
--   [**tabula**](https://packages.tesselle.org/tabula/): analysis,
-    seriation and visualization of archaeological count data;
+-   [**tabula**](https://packages.tesselle.org/tabula/): analysis and
+    visualization of archaeological count data;
 -   [**kairos**](https://packages.tesselle.org/kairos/): analysis of
     chronological patterns from archaeological count data;
 -   [**khroma**](https://packages.tesselle.org/khroma/): colour schemes
@@ -77,9 +77,9 @@ remotes::install_github("tesselle/tesselle")
 ``` r
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
-#> * tabula    1.6.1
-#> * kairos    1.0.1
-#> * khroma    1.8.0
+#> * tabula    1.7.0
+#> * kairos    1.1.0
+#> * khroma    1.9.0
 ```
 
 ## Contributing

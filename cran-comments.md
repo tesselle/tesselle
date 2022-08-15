@@ -1,11 +1,12 @@
 ## Test environments
-* Local R installation: R 4.1.2
+* Local R installation: R 4.2.1
 * Ubuntu 20.04 (on GitHub Actions): R devel, release, oldrel
 * Windows (on GitHub Actions and win-builder): R devel, release, oldrel
 * MacOS (on GitHub Actions): R release
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 note
 
-* This is a new release.
+* CRAN package check note ("Namespaces in Imports field not imported from") has been fixed.
+* CRAN package check note ("HTML validation problems") has been fixed.
