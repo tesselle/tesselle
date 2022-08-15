@@ -7,9 +7,9 @@
 \alias{tesselle}
 \title{tesselle: Easily Install and Load 'tesselle' Packages}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Easy install and load key packages from the 'tesselle' suite in a single step. The 'tesselle' suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The 'tesselle' packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: count data, compositional data and chronological data. Learn more about 'tesselle' at <https://www.tesselle.org>.
+Easy install and load key packages from the 'tesselle' suite in a single step. The 'tesselle' suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The 'tesselle' packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: count data, compositional data and chronological data. Learn more about 'tesselle' at \url{https://www.tesselle.org}.
 }
 \details{
 \tabular{ll}{
