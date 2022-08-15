@@ -33,7 +33,7 @@ Depends:
 Imports: 
     arkhe (>= 0.5.0),
     dimensio (>= 0.3.0),
-    folio (>= 1.1.0),
+    folio (>= 1.2.0),
     kairos (>= 1.1.0),
     khroma (>= 1.9.0),
     tabula (>= 1.7.0)
