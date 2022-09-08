@@ -1,4 +1,5 @@
 # tesselle 1.1.1.9000
+* Import **tabula** >= 1.8.0
 
 # tesselle 1.1.0
 

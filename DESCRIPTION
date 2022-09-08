@@ -36,7 +36,7 @@ Imports:
     folio (>= 1.2.0),
     kairos (>= 1.1.0),
     khroma (>= 1.9.0),
-    tabula (>= 1.7.0)
+    tabula (>= 1.8.0)
 Suggests:
     covr
 Encoding: UTF-8
