@@ -1,5 +1,9 @@
 # tesselle 1.1.1.9000
-* Import **tabula** >= 1.8.0
+
+* Import **arkhe** >= 1.0.0
+* Import **folio** >= 1.3.0
+* Import **kairos** >= 1.2.0
+* Import **tabula** >= 2.0.0
 
 # tesselle 1.1.0
 
