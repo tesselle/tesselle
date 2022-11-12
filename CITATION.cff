@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.2.3
+# CITATION file created with {cffr} R package, v0.3.0
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -8,7 +8,7 @@ message: 'To cite package "tesselle" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
-version: 1.1.0
+version: 1.2.0
 abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
   step. The ''tesselle'' suite is a collection of packages for research and teaching
   in archaeology. These packages focus on quantitative analysis methods developed
@@ -23,39 +23,6 @@ authors:
   email: nicolas.frerebeau@u-bordeaux-montaigne.fr
   orcid: https://orcid.org/0000-0001-5759-4944
   affiliation: Université Bordeaux Montaigne
-preferred-citation:
-  type: manual
-  title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
-  authors:
-  - family-names: Frerebeau
-    given-names: Nicolas
-    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
-    orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
-  version: 1.1.0
-  abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
-    step. The ''tesselle'' suite is a collection of packages for research and teaching
-    in archaeology. These packages focus on quantitative analysis methods developed
-    for archaeology. The ''tesselle'' packages are designed to work seamlessly together
-    and to complement general-purpose and other specialized statistical packages.
-    These packages can be used to explore and analyze common data types in archaeology:
-    count data, compositional data and chronological data. Learn more about ''tesselle''
-    at <https://www.tesselle.org>.'
-  repository: https://CRAN.R-project.org/package=tesselle
-  repository-code: https://github.com/tesselle/tesselle
-  url: https://packages.tesselle.org/tesselle/
-  contact:
-  - family-names: Frerebeau
-    given-names: Nicolas
-    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
-    orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
-  keywords:
-  - archaeological-science
-  - archaeology
-  - r-package
-  license: GPL-3.0-or-later
-  year: '2022'
 repository: https://CRAN.R-project.org/package=tesselle
 repository-code: https://github.com/tesselle/tesselle
 url: https://packages.tesselle.org/tesselle/
@@ -84,7 +51,7 @@ references:
   version: '>= 3.3'
 - type: software
   title: arkhe
-  abstract: 'arkhe: Representation of Archaeological Data'
+  abstract: 'arkhe: Tools for Cleaning Rectangular Data'
   notes: Imports
   authors:
   - family-names: Frerebeau
@@ -94,7 +61,7 @@ references:
     affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=arkhe
-  version: '>= 0.5.0'
+  version: '>= 1.0.0'
 - type: software
   title: dimensio
   abstract: 'dimensio: Multivariate Data Analysis'
@@ -120,7 +87,7 @@ references:
     affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=folio
-  version: '>= 1.2.0'
+  version: '>= 1.3.0'
 - type: software
   title: kairos
   abstract: 'kairos: Analysis of Chronological Patterns from Archaeological Count
@@ -134,7 +101,7 @@ references:
     affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=kairos
-  version: '>= 1.1.0'
+  version: '>= 1.2.0'
 - type: software
   title: khroma
   abstract: 'khroma: Colour Schemes for Scientific Data Visualization'
@@ -160,7 +127,7 @@ references:
     affiliation: Université Bordeaux Montaigne
   year: '2022'
   url: https://CRAN.R-project.org/package=tabula
-  version: '>= 1.7.0'
+  version: '>= 2.0.0'
 - type: software
   title: covr
   abstract: 'covr: Test Coverage for Packages'

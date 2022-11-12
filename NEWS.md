@@ -1,4 +1,4 @@
-# tesselle 1.1.1.9000
+# tesselle 1.2.0
 
 * Import **arkhe** >= 1.0.0
 * Import **folio** >= 1.3.0
