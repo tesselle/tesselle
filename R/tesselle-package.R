@@ -30,13 +30,12 @@
 #' @keywords internal
 "_PACKAGE"
 
-# Suppress R CMD check note
-# ("All declared Imports should be used.")
+# Suppress R CMD check note "All declared Imports should be used."
 unused <- function() {
-  arkhe::is_empty
   dimensio::ca
   folio::arnold1949
   kairos::mcd
-  khroma::colour
+  khroma::color
   tabula::heterogeneity
+  isopleuros::ternary_plot
 }
