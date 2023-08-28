@@ -48,6 +48,30 @@ archaeology: [count data](https://packages.tesselle.org/tabula/),
 The **tesselle** package is designed to make it easy to install and load
 key packages from the tesselle suite in a single step.
 
+    To cite tesselle in publications use:
+
+      Frerebeau N (2022). _tesselle: Easily Install and Load 'tesselle'
+      Packages_. Université Bordeaux Montaigne, Pessac, France.
+      doi:10.5281/zenodo.6500491 <https://doi.org/10.5281/zenodo.6500491>,
+      R package version 1.2.0,
+      <https://packages.tesselle.org/tesselle/>.
+
+    Une entrée BibTeX pour les utilisateurs LaTeX est
+
+      @Manual{,
+        author = {Nicolas Frerebeau},
+        title = {{tesselle: Easily Install and Load 'tesselle' Packages}},
+        year = {2022},
+        organization = {Université Bordeaux Montaigne},
+        address = {Pessac, France},
+        note = {R package version 1.2.0},
+        url = {https://packages.tesselle.org/tesselle/},
+        doi = {10.5281/zenodo.6500491},
+      }
+
+    This package is a part of the tesselle project
+    <https://www.tesselle.org>.
+
 ## Installation
 
 You can install the released version of **tesselle** from
@@ -68,19 +92,19 @@ remotes::install_github("tesselle/tesselle")
 
 `library(tesselle)` will load the core packages:
 
--   [**tabula**](https://packages.tesselle.org/tabula/): analysis and
-    visualization of archaeological count data;
--   [**kairos**](https://packages.tesselle.org/kairos/): analysis of
-    chronological patterns from archaeological count data;
--   [**khroma**](https://packages.tesselle.org/khroma/): colour schemes
-    for scientific data visualization.
+- [**tabula**](https://packages.tesselle.org/tabula/): analysis and
+  visualization of archaeological count data;
+- [**kairos**](https://packages.tesselle.org/kairos/): analysis of
+  chronological patterns from archaeological count data;
+- [**khroma**](https://packages.tesselle.org/khroma/): colour schemes
+  for scientific data visualization.
 
 ``` r
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
-#> * tabula    2.0.0
+#> * tabula    3.0.0
 #> * kairos    1.2.0
-#> * khroma    1.9.0
+#> * khroma    1.11.0
 ```
 
 ## Contributing
