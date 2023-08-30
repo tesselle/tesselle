@@ -8,13 +8,13 @@
   "codeRepository": "https://github.com/tesselle/tesselle",
   "issueTracker": "https://github.com/tesselle/tesselle/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "1.2.0.9000",
+  "version": "1.3.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.2.2 (2022-10-31)",
+  "runtimePlatform": "R version 4.3.1 (2023-06-16)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -48,45 +48,12 @@
       "@id": "https://orcid.org/0000-0001-5759-4944"
     }
   ],
-  "softwareSuggestions": [
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "covr",
-      "name": "covr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=covr"
-    }
-  ],
   "softwareRequirements": {
     "1": {
       "@type": "SoftwareApplication",
-      "identifier": "R",
-      "name": "R",
-      "version": ">= 3.3"
-    },
-    "2": {
-      "@type": "SoftwareApplication",
-      "identifier": "arkhe",
-      "name": "arkhe",
-      "version": ">= 1.0.0",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=arkhe"
-    },
-    "3": {
-      "@type": "SoftwareApplication",
       "identifier": "dimensio",
       "name": "dimensio",
-      "version": ">= 0.3.0",
+      "version": ">= 0.4.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -95,7 +62,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=dimensio"
     },
-    "4": {
+    "2": {
       "@type": "SoftwareApplication",
       "identifier": "folio",
       "name": "folio",
@@ -108,11 +75,24 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=folio"
     },
-    "5": {
+    "3": {
+      "@type": "SoftwareApplication",
+      "identifier": "isopleuros",
+      "name": "isopleuros",
+      "version": ">= 1.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=isopleuros"
+    },
+    "4": {
       "@type": "SoftwareApplication",
       "identifier": "kairos",
       "name": "kairos",
-      "version": ">= 1.2.0",
+      "version": ">= 2.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -121,11 +101,11 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=kairos"
     },
-    "6": {
+    "5": {
       "@type": "SoftwareApplication",
       "identifier": "khroma",
       "name": "khroma",
-      "version": ">= 1.9.0",
+      "version": ">= 1.11.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -134,11 +114,11 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=khroma"
     },
-    "7": {
+    "6": {
       "@type": "SoftwareApplication",
       "identifier": "tabula",
       "name": "tabula",
-      "version": ">= 2.0.0",
+      "version": ">= 3.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -149,7 +129,26 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "93.047KB",
+  "fileSize": "94.412KB",
+  "citation": [
+    {
+      "@type": "SoftwareSourceCode",
+      "datePublished": "2023",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Nicolas",
+          "familyName": "Frerebeau"
+        }
+      ],
+      "name": "{tesselle: Easily Install and Load 'tesselle' Packages}",
+      "identifier": "10.5281/zenodo.6500491",
+      "url": "https://packages.tesselle.org/tesselle/",
+      "description": "R package version 1.3.0",
+      "@id": "https://doi.org/10.5281/zenodo.6500491",
+      "sameAs": "https://doi.org/10.5281/zenodo.6500491"
+    }
+  ],
   "releaseNotes": "https://github.com/tesselle/tesselle/blob/master/NEWS.md",
   "readme": "https://github.com/tesselle/tesselle/blob/main/README.md",
   "contIntegration": ["https://github.com/tesselle/tesselle/actions", "https://app.codecov.io/gh/tesselle/tesselle"],

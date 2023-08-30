@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.3.0
+# CITATION file created with {cffr} R package, v0.5.0
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
  
@@ -8,7 +8,8 @@ message: 'To cite package "tesselle" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
-version: 1.2.0
+version: 1.3.0
+doi: 10.5281/zenodo.6500491
 abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
   step. The ''tesselle'' suite is a collection of packages for research and teaching
   in archaeology. These packages focus on quantitative analysis methods developed
@@ -23,6 +24,23 @@ authors:
   email: nicolas.frerebeau@u-bordeaux-montaigne.fr
   orcid: https://orcid.org/0000-0001-5759-4944
   affiliation: Université Bordeaux Montaigne
+preferred-citation:
+  type: manual
+  title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
+  authors:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  year: '2023'
+  location:
+    name: Pessac, France
+  notes: R package version 1.3.0
+  url: https://packages.tesselle.org/tesselle/
+  doi: 10.5281/zenodo.6500491
+  institution:
+    name: Université Bordeaux Montaigne
 repository: https://CRAN.R-project.org/package=tesselle
 repository-code: https://github.com/tesselle/tesselle
 url: https://packages.tesselle.org/tesselle/
@@ -38,106 +56,90 @@ keywords:
 - r package
 references:
 - type: software
-  title: 'R: A Language and Environment for Statistical Computing'
-  notes: Depends
-  authors:
-  - name: R Core Team
-  location:
-    name: Vienna, Austria
-  year: '2022'
-  url: https://www.R-project.org/
-  institution:
-    name: R Foundation for Statistical Computing
-  version: '>= 3.3'
-- type: software
-  title: arkhe
-  abstract: 'arkhe: Tools for Cleaning Rectangular Data'
-  notes: Imports
-  authors:
-  - family-names: Frerebeau
-    given-names: Nicolas
-    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
-    orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
-  year: '2022'
-  url: https://CRAN.R-project.org/package=arkhe
-  version: '>= 1.0.0'
-- type: software
   title: dimensio
   abstract: 'dimensio: Multivariate Data Analysis'
   notes: Imports
+  url: https://packages.tesselle.org/dimensio/
+  repository: https://CRAN.R-project.org/package=dimensio
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2022'
-  url: https://CRAN.R-project.org/package=dimensio
-  version: '>= 0.3.0'
+  year: '2023'
+  version: '>= 0.4.0'
 - type: software
   title: folio
   abstract: 'folio: Datasets for Teaching Archaeology and Paleontology'
   notes: Imports
+  url: https://packages.tesselle.org/folio/
+  repository: https://CRAN.R-project.org/package=folio
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2022'
-  url: https://CRAN.R-project.org/package=folio
+  year: '2023'
   version: '>= 1.3.0'
+- type: software
+  title: isopleuros
+  abstract: 'isopleuros: Ternary Plots'
+  notes: Imports
+  url: https://packages.tesselle.org/isopleuros/
+  repository: https://CRAN.R-project.org/package=isopleuros
+  authors:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  year: '2023'
+  version: '>= 1.0.0'
 - type: software
   title: kairos
   abstract: 'kairos: Analysis of Chronological Patterns from Archaeological Count
     Data'
   notes: Imports
+  url: https://packages.tesselle.org/kairos/
+  repository: https://CRAN.R-project.org/package=kairos
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2022'
-  url: https://CRAN.R-project.org/package=kairos
-  version: '>= 1.2.0'
+  year: '2023'
+  version: '>= 2.0.0'
 - type: software
   title: khroma
   abstract: 'khroma: Colour Schemes for Scientific Data Visualization'
   notes: Imports
+  url: https://packages.tesselle.org/khroma/
+  repository: https://CRAN.R-project.org/package=khroma
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2022'
-  url: https://CRAN.R-project.org/package=khroma
-  version: '>= 1.9.0'
+  year: '2023'
+  version: '>= 1.11.0'
 - type: software
   title: tabula
   abstract: 'tabula: Analysis and Visualization of Archaeological Count Data'
   notes: Imports
+  url: https://packages.tesselle.org/tabula/
+  repository: https://CRAN.R-project.org/package=tabula
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2022'
-  url: https://CRAN.R-project.org/package=tabula
-  version: '>= 2.0.0'
-- type: software
-  title: covr
-  abstract: 'covr: Test Coverage for Packages'
-  notes: Suggests
-  authors:
-  - family-names: Hester
-    given-names: Jim
-    email: james.f.hester@gmail.com
-  year: '2022'
-  url: https://CRAN.R-project.org/package=covr
+  year: '2023'
+  version: '>= 3.0.0'
 identifiers:
 - description: The concept DOI.
   type: doi
