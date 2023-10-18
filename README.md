@@ -10,7 +10,8 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
 [![Dependencies](https://tinyverse.netlify.com/badge/tesselle)](https://cran.r-project.org/package=tesselle)
 
-<a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
+<a href="https://tesselle.r-universe.dev/tesselle"
+class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/tesselle"
 alt="r-universe" /></a>
 <a href="https://cran.r-project.org/package=tesselle"
