@@ -92,7 +92,7 @@
       "@type": "SoftwareApplication",
       "identifier": "kairos",
       "name": "kairos",
-      "version": ">= 2.0.0",
+      "version": ">= 2.0.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -129,7 +129,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "94.412KB",
+  "fileSize": "94.439KB",
   "citation": [
     {
       "@type": "SoftwareSourceCode",

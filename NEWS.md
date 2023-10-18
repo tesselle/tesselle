@@ -1,7 +1,8 @@
 # tesselle 1.3.0
 
 * Import **dimensio** >= 0.4.0
-* Import **kairos** >= 2.0.0
+* Import **isopleuros** >= 1.0.0
+* Import **kairos** >= 2.0.1
 * Import **khroma** >= 1.11.0
 * Import **tabula** >= 3.0.0
 

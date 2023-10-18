@@ -102,7 +102,7 @@ remotes::install_github("tesselle/tesselle")
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
 #> * tabula    3.0.0
-#> * kairos    2.0.0
+#> * kairos    2.0.1
 #> * khroma    1.11.0
 ```
 
