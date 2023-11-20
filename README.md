@@ -56,7 +56,7 @@ key packages from the tesselle suite in a single step.
       doi:10.5281/zenodo.6500491 <https://doi.org/10.5281/zenodo.6500491>,
       R package version 1.3.0, <https://packages.tesselle.org/tesselle/>.
 
-    Une entrée BibTeX pour les utilisateurs LaTeX est
+    A BibTeX entry for LaTeX users is
 
       @Manual{,
         author = {Nicolas Frerebeau},

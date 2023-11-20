@@ -2,6 +2,3 @@ url: https://packages.tesselle.org/tesselle
 
 template:
   package: tekton
-  opengraph:
-    twitter:
-      creator: "@nfrerebeau"
