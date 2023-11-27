@@ -2,6 +2,7 @@
 
 * Import **dimensio** >= 0.5.0
 * Import **kairos** >= 2.0.2
+* Import **nexus** >= 0.1.0
 
 # tesselle 1.3.0
 

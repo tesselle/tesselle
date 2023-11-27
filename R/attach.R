@@ -1,4 +1,4 @@
-core <- c("tabula", "kairos", "khroma")
+core <- c("tabula", "kairos", "nexus")
 
 is_attached <- function(x) {
   paste0("package:", x) %in% search()

@@ -34,8 +34,9 @@
 unused <- function() {
   dimensio::ca
   folio::arnold1949
+  isopleuros::ternary_plot
   kairos::mcd
   khroma::color
+  nexus::as_composition
   tabula::heterogeneity
-  isopleuros::ternary_plot
 }

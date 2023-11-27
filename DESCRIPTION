@@ -29,6 +29,7 @@ Imports:
     isopleuros (>= 1.0.0),
     kairos (>= 2.0.2),
     khroma (>= 1.11.0),
+    nexus (>= 0.1.0),
     tabula (>= 3.0.0)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

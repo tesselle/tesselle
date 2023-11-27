@@ -63,7 +63,7 @@ remotes::install_github("tesselle/tesselle")
 
 * [**tabula**](https://packages.tesselle.org/tabula/): analysis and visualization of archaeological count data;
 * [**kairos**](https://packages.tesselle.org/kairos/): analysis of chronological patterns from archaeological count data;
-* [**khroma**](https://packages.tesselle.org/khroma/): colour schemes for scientific data visualization.
+* [**nexus**](https://packages.tesselle.org/nexus/): analysis of compositional data.
 
 ```{r library}
 library(tesselle)
