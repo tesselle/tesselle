@@ -2,7 +2,7 @@
 #'  \tabular{ll}{
 #'   **Package:** \tab tesselle \cr
 #'   **Type:** \tab Package \cr
-#'   **Version:** \tab 1.3.0 \cr
+#'   **Version:** \tab 1.4.0 \cr
 #'   **License:** \tab GPL-3 \cr
 #'  }
 #'

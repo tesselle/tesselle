@@ -1,4 +1,4 @@
-# tesselle 1.3.0.9000
+# tesselle 1.4.0
 
 * Import **dimensio** >= 0.5.0
 * Import **kairos** >= 2.0.2

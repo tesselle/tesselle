@@ -54,7 +54,7 @@ key packages from the tesselle suite in a single step.
       Frerebeau N (2023). _tesselle: Easily Install and Load 'tesselle'
       Packages_. Université Bordeaux Montaigne, Pessac, France.
       doi:10.5281/zenodo.6500491 <https://doi.org/10.5281/zenodo.6500491>,
-      R package version 1.3.0, <https://packages.tesselle.org/tesselle/>.
+      R package version 1.4.0, <https://packages.tesselle.org/tesselle/>.
 
     A BibTeX entry for LaTeX users is
 
@@ -64,7 +64,7 @@ key packages from the tesselle suite in a single step.
         year = {2023},
         organization = {Université Bordeaux Montaigne},
         address = {Pessac, France},
-        note = {R package version 1.3.0},
+        note = {R package version 1.4.0},
         url = {https://packages.tesselle.org/tesselle/},
         doi = {10.5281/zenodo.6500491},
       }
@@ -102,7 +102,7 @@ remotes::install_github("tesselle/tesselle")
 ``` r
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
-#> * tabula    3.0.0
+#> * tabula    3.0.1
 #> * kairos    2.0.2
 #> * nexus     0.1.0
 ```

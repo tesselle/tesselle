@@ -8,7 +8,7 @@ message: 'To cite package "tesselle" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
-version: 1.3.0
+version: 1.4.0
 doi: 10.5281/zenodo.6500491
 abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
   step. The ''tesselle'' suite is a collection of packages for research and teaching
@@ -36,7 +36,7 @@ preferred-citation:
   year: '2023'
   location:
     name: Pessac, France
-  notes: R package version 1.3.0
+  notes: R package version 1.4.0
   url: https://packages.tesselle.org/tesselle/
   doi: 10.5281/zenodo.6500491
   institution:
@@ -68,7 +68,7 @@ references:
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
   year: '2023'
-  version: '>= 0.4.0'
+  version: '>= 0.5.0'
 - type: software
   title: folio
   abstract: 'folio: Datasets for Teaching Archaeology and Paleontology'
@@ -110,8 +110,8 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  version: '>= 2.0.1'
   year: '2023'
+  version: '>= 2.0.2'
 - type: software
   title: khroma
   abstract: 'khroma: Colour Schemes for Scientific Data Visualization'
@@ -127,6 +127,25 @@ references:
   year: '2023'
   version: '>= 1.11.0'
 - type: software
+  title: nexus
+  abstract: 'nexus: Sourcing Archaeological Materials by Chemical Composition'
+  notes: Imports
+  url: https://packages.tesselle.org/nexus/
+  repository: https://CRAN.R-project.org/package=nexus
+  authors:
+  - family-names: Frerebeau
+    given-names: Nicolas
+    email: nicolas.frerebeau@u-bordeaux-montaigne.fr
+    orcid: https://orcid.org/0000-0001-5759-4944
+    affiliation: Université Bordeaux Montaigne
+  - family-names: Philippe
+    given-names: Anne
+    email: anne.philippe@univ-nantes.fr
+    orcid: https://orcid.org/0000-0002-5331-5087
+    affiliation: Université de Nantes
+  year: '2023'
+  version: '>= 0.1.0'
+- type: software
   title: tabula
   abstract: 'tabula: Analysis and Visualization of Archaeological Count Data'
   notes: Imports
@@ -139,7 +158,7 @@ references:
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
   year: '2023'
-  version: '>= 3.0.0'
+  version: '>= 3.0.1'
 identifiers:
 - description: The concept DOI.
   type: doi
