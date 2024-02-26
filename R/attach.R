@@ -1,11 +1,11 @@
-core <- c("tabula", "kairos", "nexus")
+.core <- c("dimensio", "isopleuros", "kairos", "nexus", "tabula")
 
 is_attached <- function(x) {
   paste0("package:", x) %in% search()
 }
 
 tesselle_unloaded <- function() {
-  core[!is_attached(core)]
+  .core[!is_attached(.core)]
 }
 
 tesselle_load <- function(x) {
@@ -18,9 +18,9 @@ tesselle_attach <- function() {
   if (length(to_load) == 0)
     return(invisible())
 
-  packageStartupMessage(message_header("Attaching packages", "tesselle"))
+  packageStartupMessage(message_header("Attaching packages"))
   suppressPackageStartupMessages(lapply(X = to_load, FUN = tesselle_load))
   packageStartupMessage(message_packages(to_load))
 
-  invisible()
+  invisible(to_load)
 }

@@ -1,4 +1,7 @@
-message_header <- function(right, left = "") {
+message_header <- function(right) {
+
+  left <- sprintf("tesselle %s", version_text("tesselle"))
+
   n_right <- nchar(right)
   n_left <- nchar(left)
 
@@ -17,14 +20,11 @@ message_header <- function(right, left = "") {
   sprintf("---%s%s%s---", right, rule, left)
 }
 message_packages <- function(x) {
-  versions <- vapply(
-    X = x,
-    FUN = function(x) {
-      version <- unclass(utils::packageVersion(x))[[1]]
-      paste0(as.character(version), collapse = ".")
-    },
-    FUN.VALUE = character(1)
-  )
-  info <- sprintf("* %-10s%s", x, versions)
+  versions <- vapply(X = x, FUN = version_text, FUN.VALUE = character(1))
+  info <- sprintf("* %-12s%s", x, versions)
   paste0(info, collapse = "\n")
+}
+version_text <- function(x) {
+  version <- unclass(utils::packageVersion(x))[[1]]
+  paste0(as.character(version), collapse = ".")
 }
