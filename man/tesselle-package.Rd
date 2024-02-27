@@ -3,7 +3,6 @@
 \docType{package}
 \name{tesselle-package}
 \alias{tesselle-package}
-\alias{_PACKAGE}
 \alias{tesselle}
 \title{tesselle: Easily Install and Load 'tesselle' Packages}
 \description{
@@ -15,7 +14,7 @@ Easy install and load key packages from the 'tesselle' suite in a single step. T
 \tabular{ll}{
 \strong{Package:} \tab tesselle \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.4.0 \cr
+\strong{Version:} \tab 1.5.0 \cr
 \strong{License:} \tab GPL-3 \cr
 }
 }

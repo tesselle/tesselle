@@ -51,23 +51,10 @@ key packages from the tesselle suite in a single step.
 
     To cite tesselle in publications use:
 
-      Frerebeau N (2023). _tesselle: Easily Install and Load 'tesselle'
+      Frerebeau N (2024). _tesselle: Easily Install and Load 'tesselle'
       Packages_. Université Bordeaux Montaigne, Pessac, France.
       doi:10.5281/zenodo.6500491 <https://doi.org/10.5281/zenodo.6500491>,
-      R package version 1.4.0, <https://packages.tesselle.org/tesselle/>.
-
-    A BibTeX entry for LaTeX users is
-
-      @Manual{,
-        author = {Nicolas Frerebeau},
-        title = {{tesselle: Easily Install and Load 'tesselle' Packages}},
-        year = {2023},
-        organization = {Université Bordeaux Montaigne},
-        address = {Pessac, France},
-        note = {R package version 1.4.0},
-        url = {https://packages.tesselle.org/tesselle/},
-        doi = {10.5281/zenodo.6500491},
-      }
+      R package version 1.5.0, <https://packages.tesselle.org/tesselle/>.
 
     This package is a part of the tesselle project
     <https://www.tesselle.org>.
@@ -97,14 +84,23 @@ remotes::install_github("tesselle/tesselle")
 - [**kairos**](https://packages.tesselle.org/kairos/): analysis of
   chronological patterns from archaeological count data;
 - [**nexus**](https://packages.tesselle.org/nexus/): analysis of
-  compositional data.
+  compositional data;
+
+And two companion packages:
+
+- [**dimensio**](https://packages.tesselle.org/dimensio/): multivariate
+  analysis;
+- [**isopleuros**](https://packages.tesselle.org/isopleuros/): ternary
+  plots.
 
 ``` r
 library(tesselle)
-#> --- Attaching packages -------------------------------------------- tesselle ---
-#> * tabula    3.0.1
-#> * kairos    2.0.2
-#> * nexus     0.1.0
+#> --- Attaching packages -------------------------------------- tesselle 1.5.0 ---
+#> * dimensio    0.6.0
+#> * isopleuros  1.2.0
+#> * kairos      2.1.0
+#> * nexus       0.2.0
+#> * tabula      3.0.1
 ```
 
 ## Contributing

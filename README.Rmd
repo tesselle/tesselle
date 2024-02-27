@@ -39,7 +39,8 @@ The [tesselle](https://www.tesselle.org/) suite is a collection of packages for 
 The **tesselle** package is designed to make it easy to install and load key packages from the tesselle suite in a single step.
 
 ```{r citation, echo=FALSE, comment=''}
-utils::citation("tesselle")
+cite <- utils::citation("tesselle")
+print(cite, bibtex = FALSE)
 ```
 
 ## Installation
@@ -63,7 +64,12 @@ remotes::install_github("tesselle/tesselle")
 
 * [**tabula**](https://packages.tesselle.org/tabula/): analysis and visualization of archaeological count data;
 * [**kairos**](https://packages.tesselle.org/kairos/): analysis of chronological patterns from archaeological count data;
-* [**nexus**](https://packages.tesselle.org/nexus/): analysis of compositional data.
+* [**nexus**](https://packages.tesselle.org/nexus/): analysis of compositional data;
+
+And two companion packages:
+
+* [**dimensio**](https://packages.tesselle.org/dimensio/): multivariate analysis;
+* [**isopleuros**](https://packages.tesselle.org/isopleuros/): ternary plots.
 
 ```{r library}
 library(tesselle)
