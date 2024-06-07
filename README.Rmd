@@ -20,12 +20,12 @@ Sys.setlocale("LC_MESSAGES", 'en_GB.UTF-8') # Force locale
 [![R-CMD-check](https://github.com/tesselle/tesselle/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/tesselle/actions)
 [![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tesselle/tesselle)
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
-[![Dependencies](https://tinyverse.netlify.com/badge/tesselle)](https://cran.r-project.org/package=tesselle)
+[![Dependencies](https://tinyverse.netlify.app/badge/tesselle)](https://cran.r-project.org/package=tesselle)
 
 [![r-universe](https://tesselle.r-universe.dev/badges/tesselle)](https://tesselle.r-universe.dev/tesselle){.pkgdown-devel}
-[![CRAN Version](http://www.r-pkg.org/badges/version/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
+[![CRAN Version](https://www.r-pkg.org/badges/version/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
 [![CRAN checks](https://badges.cranchecks.info/worst/tesselle.svg)](https://cran.r-project.org/web/checks/check_results_tesselle.html){.pkgdown-release}
-[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
+[![CRAN Downloads](https://cranlogs.r-pkg.org/badges/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
@@ -38,7 +38,9 @@ The [tesselle](https://www.tesselle.org/) suite is a collection of packages for 
 
 The **tesselle** package is designed to make it easy to install and load key packages from the tesselle suite in a single step.
 
-```{r citation, echo=FALSE, comment=''}
+---
+
+```{r citation, echo=FALSE, comment='', results='asis'}
 cite <- utils::citation("tesselle")
 print(cite, bibtex = FALSE)
 ```

@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/tesselle/tesselle/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/tesselle/actions)
 [![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tesselle/tesselle)
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
-[![Dependencies](https://tinyverse.netlify.com/badge/tesselle)](https://cran.r-project.org/package=tesselle)
+[![Dependencies](https://tinyverse.netlify.app/badge/tesselle)](https://cran.r-project.org/package=tesselle)
 
 <a href="https://tesselle.r-universe.dev/tesselle"
 class="pkgdown-devel"><img
@@ -16,7 +16,7 @@ src="https://tesselle.r-universe.dev/badges/tesselle"
 alt="r-universe" /></a>
 <a href="https://cran.r-project.org/package=tesselle"
 class="pkgdown-release"><img
-src="http://www.r-pkg.org/badges/version/tesselle"
+src="https://www.r-pkg.org/badges/version/tesselle"
 alt="CRAN Version" /></a> <a
 href="https://cran.r-project.org/web/checks/check_results_tesselle.html"
 class="pkgdown-release"><img
@@ -24,7 +24,7 @@ src="https://badges.cranchecks.info/worst/tesselle.svg"
 alt="CRAN checks" /></a>
 <a href="https://cran.r-project.org/package=tesselle"
 class="pkgdown-release"><img
-src="http://cranlogs.r-pkg.org/badges/tesselle"
+src="https://cranlogs.r-pkg.org/badges/tesselle"
 alt="CRAN Downloads" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
@@ -49,15 +49,22 @@ archaeology: [count data](https://packages.tesselle.org/tabula/),
 The **tesselle** package is designed to make it easy to install and load
 key packages from the tesselle suite in a single step.
 
-    To cite tesselle in publications use:
+------------------------------------------------------------------------
 
-      Frerebeau N (2024). _tesselle: Easily Install and Load 'tesselle'
-      Packages_. Université Bordeaux Montaigne, Pessac, France.
-      doi:10.5281/zenodo.6500491 <https://doi.org/10.5281/zenodo.6500491>,
-      R package version 1.5.0, <https://packages.tesselle.org/tesselle/>.
+To cite tesselle in publications use:
 
-    This package is a part of the tesselle project
-    <https://www.tesselle.org>.
+Frerebeau N (2024). “The tesselle Project: a Collection of R Packages
+for Research and Teaching in Archaeology.” *Advances in Archaeological
+Practice*. <doi:10.1017/aap.2024.10>
+<https://doi.org/10.1017/aap.2024.10>.
+
+Frerebeau N (2024). *tesselle: Easily Install and Load ‘tesselle’
+Packages*. Université Bordeaux Montaigne, Pessac, France.
+<doi:10.5281/zenodo.6500491> <https://doi.org/10.5281/zenodo.6500491>, R
+package version 1.4.0, <https://packages.tesselle.org/tesselle/>.
+
+This package is a part of the tesselle project
+<https://www.tesselle.org>.
 
 ## Installation
 
@@ -95,12 +102,12 @@ And two companion packages:
 
 ``` r
 library(tesselle)
-#> --- Attaching packages -------------------------------------- tesselle 1.5.0 ---
-#> * dimensio    0.6.0
+#> --- Attaching packages --------------------------------- tesselle 1.4.0.9000 ---
+#> * dimensio    0.9.0
 #> * isopleuros  1.2.0
-#> * kairos      2.1.0
+#> * kairos      2.1.1
 #> * nexus       0.2.0
-#> * tabula      3.0.1
+#> * tabula      3.1.0
 ```
 
 ## Contributing
