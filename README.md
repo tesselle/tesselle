@@ -53,15 +53,10 @@ key packages from the tesselle suite in a single step.
 
 To cite tesselle in publications use:
 
-Frerebeau N (2024). “The tesselle Project: a Collection of R Packages
-for Research and Teaching in Archaeology.” *Advances in Archaeological
-Practice*. <doi:10.1017/aap.2024.10>
-<https://doi.org/10.1017/aap.2024.10>.
-
 Frerebeau N (2024). *tesselle: Easily Install and Load ‘tesselle’
 Packages*. Université Bordeaux Montaigne, Pessac, France.
 <doi:10.5281/zenodo.6500491> <https://doi.org/10.5281/zenodo.6500491>, R
-package version 1.4.0, <https://packages.tesselle.org/tesselle/>.
+package version 1.5.0, <https://packages.tesselle.org/tesselle/>.
 
 This package is a part of the tesselle project
 <https://www.tesselle.org>.
@@ -102,12 +97,12 @@ And two companion packages:
 
 ``` r
 library(tesselle)
-#> --- Attaching packages --------------------------------- tesselle 1.4.0.9000 ---
+#> --- Attaching packages -------------------------------------- tesselle 1.5.0 ---
 #> * dimensio    0.9.0
 #> * isopleuros  1.2.0
 #> * kairos      2.1.1
-#> * nexus       0.2.0
-#> * tabula      3.1.0
+#> * nexus       0.3.0
+#> * tabula      3.1.1
 ```
 
 ## Contributing

@@ -1,15 +1,34 @@
-# -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.5.0
+# --------------------------------------------
+# CITATION file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
-# -----------------------------------------------------------
+# --------------------------------------------
  
 cff-version: 1.2.0
 message: 'To cite package "tesselle" in publications use:'
 type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
-version: 1.4.0
+version: 1.5.0
 doi: 10.5281/zenodo.6500491
+identifiers:
+- description: The concept DOI.
+  type: doi
+  value: 10.5281/zenodo.6500491
+- description: The versioned DOI for version 1.0.0.
+  type: doi
+  value: 10.5281/zenodo.6500492
+- description: The versioned DOI for version 1.1.0.
+  type: doi
+  value: 10.5281/zenodo.7013602
+- description: The versioned DOI for version 1.2.0.
+  type: doi
+  value: 10.5281/zenodo.7315628
+- description: The versioned DOI for version 1.3.0.
+  type: doi
+  value: 10.5281/zenodo.10017663
+- description: The versioned DOI for version 1.4.0.
+  type: doi
+  value: 10.5281/zenodo.10226956
 abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
   step. The ''tesselle'' suite is a collection of packages for research and teaching
   in archaeology. These packages focus on quantitative analysis methods developed
@@ -33,14 +52,13 @@ preferred-citation:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  location:
-    name: Pessac, France
-  notes: R package version 1.4.0
-  url: https://packages.tesselle.org/tesselle/
-  doi: 10.5281/zenodo.6500491
+  year: '2024'
   institution:
     name: Université Bordeaux Montaigne
+    address: Pessac, France
+  notes: R package version 1.5.0
+  url: https://packages.tesselle.org/tesselle/
+  doi: 10.5281/zenodo.6500491
 repository: https://CRAN.R-project.org/package=tesselle
 repository-code: https://github.com/tesselle/tesselle
 url: https://packages.tesselle.org/tesselle/
@@ -67,8 +85,9 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  version: '>= 0.5.0'
+  year: '2024'
+  doi: 10.32614/CRAN.package.dimensio
+  version: '>= 0.9.0'
 - type: software
   title: folio
   abstract: 'folio: Datasets for Teaching Archaeology and Paleontology'
@@ -81,8 +100,9 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  version: '>= 1.3.0'
+  year: '2024'
+  doi: 10.32614/CRAN.package.folio
+  version: '>= 1.5.0'
 - type: software
   title: isopleuros
   abstract: 'isopleuros: Ternary Plots'
@@ -95,8 +115,9 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  version: '>= 1.0.0'
+  year: '2024'
+  doi: 10.32614/CRAN.package.isopleuros
+  version: '>= 1.2.0'
 - type: software
   title: kairos
   abstract: 'kairos: Analysis of Chronological Patterns from Archaeological Count
@@ -110,8 +131,9 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  version: '>= 2.0.2'
+  year: '2024'
+  doi: 10.32614/CRAN.package.kairos
+  version: '>= 2.1.1'
 - type: software
   title: khroma
   abstract: 'khroma: Colour Schemes for Scientific Data Visualization'
@@ -124,8 +146,9 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  version: '>= 1.11.0'
+  year: '2024'
+  doi: 10.32614/CRAN.package.khroma
+  version: '>= 1.14.0'
 - type: software
   title: nexus
   abstract: 'nexus: Sourcing Archaeological Materials by Chemical Composition'
@@ -143,8 +166,9 @@ references:
     email: anne.philippe@univ-nantes.fr
     orcid: https://orcid.org/0000-0002-5331-5087
     affiliation: Université de Nantes
-  year: '2023'
-  version: '>= 0.1.0'
+  year: '2024'
+  doi: 10.32614/CRAN.package.nexus
+  version: '>= 0.3.0'
 - type: software
   title: tabula
   abstract: 'tabula: Analysis and Visualization of Archaeological Count Data'
@@ -157,24 +181,7 @@ references:
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
-  year: '2023'
-  version: '>= 3.0.1'
-identifiers:
-- description: The concept DOI.
-  type: doi
-  value: 10.5281/zenodo.6500491
-- description: The versioned DOI for version 1.0.0.
-  type: doi
-  value: 10.5281/zenodo.6500492
-- description: The versioned DOI for version 1.1.0.
-  type: doi
-  value: 10.5281/zenodo.7013602
-- description: The versioned DOI for version 1.2.0.
-  type: doi
-  value: 10.5281/zenodo.7315628
-- description: The versioned DOI for version 1.3.0.
-  type: doi
-  value: 10.5281/zenodo.10017663
-- description: The versioned DOI for version 1.4.0.
-  type: doi
-  value: 10.5281/zenodo.10226956
+  year: '2024'
+  doi: 10.32614/CRAN.package.tabula
+  version: '>= 3.1.1'
+
