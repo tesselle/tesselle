@@ -9,7 +9,7 @@ type: software
 license: GPL-3.0-or-later
 title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
 version: 1.5.0
-doi: 10.5281/zenodo.6500491
+doi: 10.1017/aap.2024.10
 identifiers:
 - description: The concept DOI.
   type: doi
@@ -29,6 +29,9 @@ identifiers:
 - description: The versioned DOI for version 1.4.0.
   type: doi
   value: 10.5281/zenodo.10226956
+- description: The CRAN DOI
+  type: doi
+  value: 10.32614/cran.package.tesselle
 abstract: 'Easy install and load key packages from the ''tesselle'' suite in a single
   step. The ''tesselle'' suite is a collection of packages for research and teaching
   in archaeology. These packages focus on quantitative analysis methods developed
@@ -44,8 +47,9 @@ authors:
   orcid: https://orcid.org/0000-0001-5759-4944
   affiliation: Université Bordeaux Montaigne
 preferred-citation:
-  type: manual
-  title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
+  type: article
+  title: 'The tesselle Project: a Collection of R Packages for Research and Teaching
+    in Archaeology'
   authors:
   - family-names: Frerebeau
     given-names: Nicolas
@@ -53,12 +57,8 @@ preferred-citation:
     orcid: https://orcid.org/0000-0001-5759-4944
     affiliation: Université Bordeaux Montaigne
   year: '2024'
-  institution:
-    name: Université Bordeaux Montaigne
-    address: Pessac, France
-  notes: R package version 1.5.0
-  url: https://packages.tesselle.org/tesselle/
-  doi: 10.5281/zenodo.6500491
+  journal: Advances in Archaeological Practice
+  doi: 10.1017/aap.2024.10
 repository: https://CRAN.R-project.org/package=tesselle
 repository-code: https://github.com/tesselle/tesselle
 url: https://packages.tesselle.org/tesselle/
@@ -73,6 +73,18 @@ keywords:
 - archaeological science
 - r package
 references:
+- type: manual
+  title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
+  authors:
+  - family-names: Frerebeau
+    given-names: Nicolas
+  year: '2024'
+  institution:
+    name: Université Bordeaux Montaigne
+    address: Pessac, France
+  notes: R package version 1.5.0
+  url: https://packages.tesselle.org/tesselle/
+  doi: 10.5281/zenodo.6500491
 - type: software
   title: dimensio
   abstract: 'dimensio: Multivariate Data Analysis'
@@ -84,10 +96,9 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
   year: '2024'
   doi: 10.32614/CRAN.package.dimensio
-  version: '>= 0.9.0'
+  version: '>= 0.10.1'
 - type: software
   title: folio
   abstract: 'folio: Datasets for Teaching Archaeology and Paleontology'
@@ -114,10 +125,9 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
   year: '2024'
   doi: 10.32614/CRAN.package.isopleuros
-  version: '>= 1.2.0'
+  version: '>= 1.3.0'
 - type: software
   title: kairos
   abstract: 'kairos: Analysis of Chronological Patterns from Archaeological Count
@@ -130,10 +140,9 @@ references:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
   year: '2024'
   doi: 10.32614/CRAN.package.kairos
-  version: '>= 2.1.1'
+  version: '>= 2.2.0'
 - type: software
   title: khroma
   abstract: 'khroma: Colour Schemes for Scientific Data Visualization'
