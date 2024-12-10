@@ -29,6 +29,9 @@ identifiers:
 - description: The versioned DOI for version 1.4.0.
   type: doi
   value: 10.5281/zenodo.10226956
+- description: The versioned DOI for version 1.5.0.
+  type: doi
+  value: 10.5281/zenodo.14362201
 - description: The CRAN DOI
   type: doi
   value: 10.32614/cran.package.tesselle
@@ -45,7 +48,6 @@ authors:
   given-names: Nicolas
   email: nicolas.frerebeau@u-bordeaux-montaigne.fr
   orcid: https://orcid.org/0000-0001-5759-4944
-  affiliation: Université Bordeaux Montaigne
 preferred-citation:
   type: article
   title: 'The tesselle Project: a Collection of R Packages for Research and Teaching
@@ -55,7 +57,6 @@ preferred-citation:
     given-names: Nicolas
     email: nicolas.frerebeau@u-bordeaux-montaigne.fr
     orcid: https://orcid.org/0000-0001-5759-4944
-    affiliation: Université Bordeaux Montaigne
   year: '2024'
   journal: Advances in Archaeological Practice
   doi: 10.1017/aap.2024.10
@@ -67,7 +68,6 @@ contact:
   given-names: Nicolas
   email: nicolas.frerebeau@u-bordeaux-montaigne.fr
   orcid: https://orcid.org/0000-0001-5759-4944
-  affiliation: Université Bordeaux Montaigne
 keywords:
 - archaeology
 - archaeological science
