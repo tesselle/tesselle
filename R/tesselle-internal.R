@@ -1,3 +1,8 @@
+## https://michaelchirico.github.io/potools/articles/developers.html
+tr_ <- function(...) {
+  enc2utf8(gettext(paste0(...), domain = "R-tesselle"))
+}
+
 message_header <- function(right) {
 
   left <- sprintf("tesselle %s", version_text("tesselle"))

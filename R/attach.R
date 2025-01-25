@@ -18,7 +18,7 @@ tesselle_attach <- function() {
   if (length(to_load) == 0)
     return(invisible())
 
-  packageStartupMessage(message_header("Attaching packages"))
+  packageStartupMessage(message_header(tr_("Attaching packages")))
   suppressPackageStartupMessages(lapply(X = to_load, FUN = tesselle_load))
   packageStartupMessage(message_packages(to_load))
 
