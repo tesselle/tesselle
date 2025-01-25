@@ -61,7 +61,7 @@ preferred-citation:
   journal: Advances in Archaeological Practice
   doi: 10.1017/aap.2024.10
 repository: https://CRAN.R-project.org/package=tesselle
-repository-code: https://github.com/tesselle/tesselle
+repository-code: https://codeberg.org/tesselle/tesselle
 url: https://packages.tesselle.org/tesselle/
 contact:
 - family-names: Frerebeau

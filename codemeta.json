@@ -6,7 +6,7 @@
   "name": "tesselle: Easily Install and Load 'tesselle' Packages",
   "relatedLink": ["https://packages.tesselle.org/tesselle/", "https://CRAN.R-project.org/package=tesselle"],
   "codeRepository": "https://github.com/tesselle/tesselle",
-  "issueTracker": "https://github.com/tesselle/tesselle/issues",
+  "issueTracker": "https://codeberg.org/tesselle/tesselle/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
   "version": "1.5.0",
   "programmingLanguage": {

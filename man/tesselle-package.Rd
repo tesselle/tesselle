@@ -21,9 +21,9 @@ Easy install and load key packages from the 'tesselle' suite in a single step. T
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/tesselle/tesselle}
   \item \url{https://packages.tesselle.org/tesselle/}
-  \item Report bugs at \url{https://github.com/tesselle/tesselle/issues}
+  \item \url{https://codeberg.org/tesselle/tesselle}
+  \item Report bugs at \url{https://codeberg.org/tesselle/tesselle/issues}
 }
 
 }
