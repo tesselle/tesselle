@@ -22,8 +22,8 @@ Description: Easy install and load key packages from the 'tesselle' suite
     archaeology: count data, compositional data and chronological data.
     Learn more about 'tesselle' at <https://www.tesselle.org>.
 License: GPL (>= 3)
-URL: https://packages.tesselle.org/tesselle/,
-  https://codeberg.org/tesselle/tesselle
+URL: https://codeberg.org/tesselle/tesselle,
+    https://packages.tesselle.org/tesselle/
 BugReports: https://codeberg.org/tesselle/tesselle/issues
 Imports: 
     dimensio (>= 0.10.1),
@@ -36,3 +36,7 @@ Imports:
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+X-schema.org-applicationCategory: Archaeological Science
+X-schema.org-isPartOf: https://www.tesselle.org
+X-schema.org-keywords: archaeological-science, archaeology, statistics,
+    r-package

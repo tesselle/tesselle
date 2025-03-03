@@ -5,7 +5,7 @@
   "description": "Easy install and load key packages from the 'tesselle' suite in a single step. The 'tesselle' suite is a collection of packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The 'tesselle' packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages. These packages can be used to explore and analyze common data types in archaeology: count data, compositional data and chronological data. Learn more about 'tesselle' at <https://www.tesselle.org>.",
   "name": "tesselle: Easily Install and Load 'tesselle' Packages",
   "relatedLink": ["https://packages.tesselle.org/tesselle/", "https://CRAN.R-project.org/package=tesselle"],
-  "codeRepository": "https://github.com/tesselle/tesselle",
+  "codeRepository": "https://codeberg.org/tesselle/tesselle",
   "issueTracker": "https://codeberg.org/tesselle/tesselle/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
   "version": "1.5.0",
@@ -143,7 +143,10 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "95.479KB",
+  "applicationCategory": "ArchaeologicalScience",
+  "isPartOf": "https://www.tesselle.org",
+  "keywords": ["archaeological-science", "archaeology", "statistics", "r-package"],
+  "fileSize": "97.176KB",
   "citation": [
     {
       "@type": "ScholarlyArticle",
@@ -186,9 +189,5 @@
       "sameAs": "https://doi.org/10.5281/zenodo.6500491"
     }
   ],
-  "releaseNotes": "https://github.com/tesselle/tesselle/blob/master/NEWS.md",
-  "readme": "https://github.com/tesselle/tesselle/blob/main/README.md",
-  "contIntegration": ["https://github.com/tesselle/tesselle/actions", "https://app.codecov.io/gh/tesselle/tesselle"],
-  "developmentStatus": "https://www.repostatus.org/#active",
-  "keywords": ["archaeology", "archaeological-science", "r-package"]
+  "developmentStatus": "https://www.repostatus.org/#active"
 }

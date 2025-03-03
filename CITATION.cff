@@ -69,9 +69,10 @@ contact:
   email: nicolas.frerebeau@u-bordeaux-montaigne.fr
   orcid: https://orcid.org/0000-0001-5759-4944
 keywords:
+- archaeological-science
 - archaeology
-- archaeological science
-- r package
+- statistics
+- r-package
 references:
 - type: manual
   title: 'tesselle: Easily Install and Load ''tesselle'' Packages'
