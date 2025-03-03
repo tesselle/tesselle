@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Code
+coverage](https://packages.tesselle.org/tesselle/coverage/badge.svg)](https://packages.tesselle.org/tesselle/coverage/)
 [![Dependencies](https://tinyverse.netlify.app/badge/tesselle)](https://cran.r-project.org/package=tesselle)
 
 <a href="https://tesselle.r-universe.dev/tesselle"
