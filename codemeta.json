@@ -8,13 +8,13 @@
   "codeRepository": "https://codeberg.org/tesselle/tesselle",
   "issueTracker": "https://codeberg.org/tesselle/tesselle/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.2 (2024-10-31)",
+  "runtimePlatform": "R version 4.4.3 (2025-02-28)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -54,7 +54,7 @@
       "@type": "SoftwareApplication",
       "identifier": "dimensio",
       "name": "dimensio",
-      "version": ">= 0.10.1",
+      "version": ">= 0.13.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -80,7 +80,7 @@
       "@type": "SoftwareApplication",
       "identifier": "isopleuros",
       "name": "isopleuros",
-      "version": ">= 1.3.0",
+      "version": ">= 1.4.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -93,7 +93,7 @@
       "@type": "SoftwareApplication",
       "identifier": "kairos",
       "name": "kairos",
-      "version": ">= 2.2.0",
+      "version": ">= 2.2.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -106,7 +106,7 @@
       "@type": "SoftwareApplication",
       "identifier": "khroma",
       "name": "khroma",
-      "version": ">= 1.14.0",
+      "version": ">= 1.16.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -119,7 +119,7 @@
       "@type": "SoftwareApplication",
       "identifier": "nexus",
       "name": "nexus",
-      "version": ">= 0.3.0",
+      "version": ">= 0.5.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -132,7 +132,7 @@
       "@type": "SoftwareApplication",
       "identifier": "tabula",
       "name": "tabula",
-      "version": ">= 3.1.1",
+      "version": ">= 3.2.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -146,7 +146,7 @@
   "applicationCategory": "ArchaeologicalScience",
   "isPartOf": "https://www.tesselle.org",
   "keywords": ["archaeological-science", "archaeology", "statistics", "r-package"],
-  "fileSize": "97.176KB",
+  "fileSize": "97.13KB",
   "citation": [
     {
       "@type": "ScholarlyArticle",
@@ -173,7 +173,7 @@
     },
     {
       "@type": "SoftwareSourceCode",
-      "datePublished": "2024",
+      "datePublished": "2025",
       "author": [
         {
           "@type": "Person",
@@ -184,7 +184,7 @@
       "name": "{tesselle: Easily Install and Load 'tesselle' Packages}",
       "identifier": "10.5281/zenodo.6500491",
       "url": "https://packages.tesselle.org/tesselle/",
-      "description": "R package version 1.5.0",
+      "description": "R package version 1.6.0",
       "@id": "https://doi.org/10.5281/zenodo.6500491",
       "sameAs": "https://doi.org/10.5281/zenodo.6500491"
     }

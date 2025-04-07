@@ -57,10 +57,10 @@ for Research and Teaching in Archaeology.” *Advances in Archaeological
 Practice*. <doi:10.1017/aap.2024.10>
 <https://doi.org/10.1017/aap.2024.10>.
 
-Frerebeau N (2024). *tesselle: Easily Install and Load ‘tesselle’
+Frerebeau N (2025). *tesselle: Easily Install and Load ‘tesselle’
 Packages*. Université Bordeaux Montaigne, Pessac, France.
 <doi:10.5281/zenodo.6500491> <https://doi.org/10.5281/zenodo.6500491>, R
-package version 1.5.0, <https://packages.tesselle.org/tesselle/>.
+package version 1.6.0, <https://packages.tesselle.org/tesselle/>.
 
 This package is a part of the tesselle project
 <https://www.tesselle.org>.
@@ -101,12 +101,12 @@ And two companion packages:
 
 ``` r
 library(tesselle)
-#> --- Attaching packages -------------------------------------- tesselle 1.5.0 ---
-#> * dimensio    0.10.1
-#> * isopleuros  1.3.0
-#> * kairos      2.2.0
-#> * nexus       0.3.0
-#> * tabula      3.1.1
+#> --- Attaching packages -------------------------------------- tesselle 1.6.0 ---
+#> * dimensio    0.13.0
+#> * isopleuros  1.4.0
+#> * kairos      2.2.1
+#> * nexus       0.5.0
+#> * tabula      3.2.1
 ```
 
 ## Contributing
