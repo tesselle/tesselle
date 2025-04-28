@@ -146,7 +146,7 @@
   "applicationCategory": "ArchaeologicalScience",
   "isPartOf": "https://www.tesselle.org",
   "keywords": ["archaeological-science", "archaeology", "statistics", "r-package"],
-  "fileSize": "97.112KB",
+  "fileSize": "97.13KB",
   "citation": [
     {
       "@type": "ScholarlyArticle",

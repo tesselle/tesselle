@@ -1,3 +1,5 @@
+# tesselle 1.6.0.9000
+
 # tesselle 1.6.0
 
 * Import **dimensio** >= 0.13.0
