@@ -14,7 +14,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.3 (2025-02-28)",
+  "runtimePlatform": "R version 4.5.0 (2025-04-11)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -146,7 +146,7 @@
   "applicationCategory": "ArchaeologicalScience",
   "isPartOf": "https://www.tesselle.org",
   "keywords": ["archaeological-science", "archaeology", "statistics", "r-package"],
-  "fileSize": "97.13KB",
+  "fileSize": "97.112KB",
   "citation": [
     {
       "@type": "ScholarlyArticle",
@@ -160,13 +160,16 @@
       ],
       "name": "{The tesselle Project: a Collection of R Packages for Research and Teaching in Archaeology}",
       "identifier": "10.1017/aap.2024.10",
+      "pagination": "424-430",
       "@id": "https://doi.org/10.1017/aap.2024.10",
       "sameAs": "https://doi.org/10.1017/aap.2024.10",
       "isPartOf": {
         "@type": "PublicationIssue",
+        "issueNumber": "4",
         "datePublished": "2024",
         "isPartOf": {
           "@type": ["PublicationVolume", "Periodical"],
+          "volumeNumber": "12",
           "name": "Advances in Archaeological Practice"
         }
       }

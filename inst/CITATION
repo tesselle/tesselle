@@ -6,9 +6,9 @@ bibentry(
   title        = "{The tesselle Project: a Collection of R Packages for Research and Teaching in Archaeology}",
   year         = "2024",
   journal      = "Advances in Archaeological Practice",
-#  volume       = "12",
-#  number       = "3",
-#  pages        = "1-7",
+  volume       = "12",
+  number       = "4",
+  pages        = "424-430",
   doi          = "10.1017/aap.2024.10"
 )
 bibentry(
