@@ -17,8 +17,9 @@ Sys.setenv(LANGUAGE = "en") # Force locale
 # tesselle <img width=120px src="man/figures/logo.png" align="right" />
 
 <!-- badges: start -->
-[![Code coverage](https://packages.tesselle.org/tesselle/coverage/badge.svg)](https://packages.tesselle.org/tesselle/coverage/)
-[![Dependencies](https://tinyverse.netlify.app/badge/tesselle)](https://cran.r-project.org/package=tesselle)
+[![status-badge](https://ci.codeberg.org/api/badges/14698/status.svg)](https://ci.codeberg.org/repos/14698){.pkgdown-devel}
+[![Code coverage](https://packages.tesselle.org/tesselle/coverage/badge.svg)](https://packages.tesselle.org/tesselle/coverage/){.pkgdown-devel}
+[![Dependencies](https://tinyverse.netlify.app/badge/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-devel}
 
 [![r-universe](https://tesselle.r-universe.dev/badges/tesselle)](https://tesselle.r-universe.dev/tesselle){.pkgdown-devel}
 [![CRAN Version](https://www.r-pkg.org/badges/version/tesselle)](https://cran.r-project.org/package=tesselle){.pkgdown-release}
