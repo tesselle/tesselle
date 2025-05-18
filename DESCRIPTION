@@ -23,6 +23,7 @@ Description: Easy install and load key packages from the 'tesselle' suite
     Learn more about 'tesselle' at <https://www.tesselle.org>.
 License: GPL (>= 3)
 URL: https://codeberg.org/tesselle/tesselle,
+    https://tesselle.r-universe.dev/tesselle,
     https://packages.tesselle.org/tesselle/
 BugReports: https://codeberg.org/tesselle/tesselle/issues
 Imports: 
